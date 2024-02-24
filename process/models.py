@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Bus(models.Model):
     info = models.CharField(max_length=255, null=True)
     num_seat = models.IntegerField()
